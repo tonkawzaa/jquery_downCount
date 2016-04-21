@@ -1,0 +1,45 @@
+{
+  "ProjectName": "test countdown",
+  "ProjectGuid": "a2e6033d-e1b9-4627-80d4-8286e491a3e4",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.testcountdown",
+  "DisplayName": "test countdown",
+  "Author": "",
+  "Description": "test countdown",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{aaa187d1-d7db-4a50-9351-7c87a3a9ab48}",
+  "WP8ProductID": "{4cf3c809-3f81-4bc6-a356-67a471e69aa3}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.testcountdown",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}

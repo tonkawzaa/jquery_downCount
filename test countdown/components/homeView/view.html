@@ -1,6 +1,67 @@
-<div data-role="view" data-title="Home View" data-layout="main" data-model="app.homeView" data-show="app.homeView.onShow" data-after-show="app.homeView.afterShow">
-    <!-- START_CUSTOM_CODE_homeView -->
-    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
-    <h1 data-bind="html: title"></h1>
-    <!-- END_CUSTOM_CODE_homeView -->
+<div data-role="view" data-title="Home View" id="home" data-layout="main" data-model="app.homeView" data-show="app.homeView.onShow" data-after-show="app.homeView.afterShow">
+    
+            <h1>HOME</h1>
+
+    <div class="count-view" style="display: none">
+        <ul class="countdown">
+            <!--
+            <li> <span class="days">00</span>
+            <p class="days_ref">days</p>
+            </li>
+            <li class="seperator">.</li>
+            -->
+            <li> <span class="hours">00</span>
+            <!-- <p class="hours_ref">hours</p>  -->
+            </li>
+            <li class="seperator">:</li>
+            <li> <span class="minutes">00</span>
+            <!-- <p class="minutes_ref">minutes</p>  -->
+            </li>
+            <li class="seperator">:</li>
+            <li> <span class="seconds">00</span>
+            <!-- <p class="seconds_ref">seconds</p>  -->
+            </li>
+        </ul>
+    </div>
+    
+    <!--
+    <div style="display: none">
+        
+        <script class="source" type="text/javascript">
+            
+            //var targetDate= '04/22/2016 18:17:00';
+            var targetDate = myFunction();        // Function is called, return value will end up in x
+
+            function myFunction() {
+                var date = new Date();
+                var day = date.getDate();
+                var monthIndex = date.getMonth()+1;
+                var year = date.getFullYear();
+                var hours = date.getHours();
+                hours = "0"+String(hours);
+                var minutes= date.getMinutes();
+                 minutes = "0"+String(minutes);
+                var seconds= date.getSeconds();
+                seconds= "0"+String(seconds);
+
+                var datetime1 = String(monthIndex)+"/"+String(day)+"/"+String(year)+" "+hours.slice(-2)+":"+minutes.slice(-2)+":"+seconds.slice(-2);
+                return String(datetime1);                
+            }
+            $('.countdown').downCount({
+                date: targetDate,
+                offset: +10
+            }, function () {
+                //alert('WOOT WOOT, done!');
+                //alert(targetDate);
+                window.location.href = "#components/contactsView/view.html";
+            });
+        </script> 
+    </div>
+    -->
+    <div class="details-view" >
+        <p>
+            hello
+        </p>
+        <button data-bind="click: clickcount">go go </button>
+    </div>
 </div>

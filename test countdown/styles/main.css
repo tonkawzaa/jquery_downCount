@@ -168,3 +168,34 @@
 
 
 /* END_CUSTOM_CODE_kendoUiMobileApp */
+
+/* test count down */
+ul.countdown {
+list-style: none;
+margin: 75px 0;
+padding: 0;
+display: block;
+text-align: center;
+}
+ul.countdown li {
+display: inline-block;
+}
+ul.countdown li span {
+font-size: 80px;
+font-weight: 300;
+line-height: 80px;
+color: #00ff00;
+}
+ul.countdown li.seperator {
+font-size: 80px;
+line-height: 70px;
+vertical-align: top;
+color: #00ff00;
+}
+/*
+ul.countdown li p {
+color: #a7abb1;
+font-size: 14px;
+}
+*/
+/*  END COUNT DOWN */
